@@ -8,8 +8,8 @@
 
 LedControl lc = LedControl(dataIn, clk, cs, 1);  //LedControl('DIN핀 번호', 'CLK핀 번호', 'CS핀 번호', 'dot matrix 갯수')
 
-int stateCheck = 0;
-bool Matrix_false[8][8] = {
+bool stateCheck = 0;
+bool Matrix_off[8][8] = {
   0,
 };
 bool MatrixInput_1[8][8] = {
@@ -56,8 +56,8 @@ bool MatrixInput_4[8][8] = {
   { 0, 0, 0, 1, 1, 0, 0, 0 }
 };
 
-int btnFlg1 = 0;
-int btnFlg2 = 0;
+bool btnFlg1 = 0;
+bool btnFlg2 = 0;
 int btn1Chk() {
   if (digitalRead(Player1) == 0) {
     btnFlg1 = 1;
@@ -109,20 +109,23 @@ void setup() {
 void loop() {
   if (stateCheck == 1) {
     if (btn1Chk() == 1) {
-      stateCheck = 0;
+      btnFlg2 = 0;
       MatrixLoop(MatrixInput_3);
       delay(1500);
-      MatrixLoop(Matrix_false);
-    } else if (btn2Chk() == 1) {
+      MatrixLoop(Matrix_off);
       stateCheck = 0;
+    } else if (btn2Chk() == 1) {
+      btnFlg1 = 0;
       MatrixLoop(MatrixInput_4);
       delay(1500);
-      MatrixLoop(Matrix_false);
+      MatrixLoop(Matrix_off);
+      stateCheck = 0;
     }
   } else if (stateCheck == 0) {
-    if ((btn1Chk() == 1) || (btn2Chk() == 1)) {
+    if (btn1Chk() == 1 || btn2Chk() == 1) {
       setupfunc();
       stateCheck = 1;
     }
   }
+  delay(1);
 }

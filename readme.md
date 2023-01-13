@@ -1,24 +1,23 @@
-# Gongzipsa ë°˜ì‘ì†ë„ê²Œìž„ í‚¤íŠ¸ ì œìž‘
-- ë²„íŠ¼ì„ ëˆ„ë¥´ë©´ ì‹œìž‘ë˜ë©° Xê°€ Oë¡œ ë°”ë€ ìˆœê°„ ë¨¼ì € ë²„íŠ¼ì„ ëˆŒë €ë‹¤ê°€ ë—€ ìª½ì„ í™”ì‚´í‘œë¡œ ê°€ë¥´í‚´
+# Gongzipsa ¹ÝÀÀ¼Óµµ°ÔÀÓ Å°Æ® Á¦ÀÛ
+- ¹öÆ°À» ´©¸£¸é ½ÃÀÛµÇ¸ç X°¡ O·Î ¹Ù²ï ¼ø°£ ¸ÕÀú ¹öÆ°À» ´­·¶´Ù°¡ ¶¿ ÂÊÀ» È­»ìÇ¥·Î °¡¸£Å´
 
-## ì‚¬ìš© ë¶€í’ˆ
-- 8x8 dot matrix(1ê°œ)
-- push button(2ê°œ)
+## »ç¿ë ºÎÇ°
+- 8x8 dot matrix(1°³)
+- push button(2°³)
 - arudino nano
 
-## ë¼ì´ë¸ŒëŸ¬ë¦¬
-- LedControl by Eberhard Fahle
-  - dot matrixë¥¼ ì‚¬ìš©í•˜ê¸°ìœ„í•œ ë¼ì´ë¸ŒëŸ¬ë¦¬
+## ¶óÀÌºê·¯¸®
+- LedControl by Eberhard Fahle : dot matrix¸¦ »ç¿ëÇÏ±âÀ§ÇÑ ¶óÀÌºê·¯¸®
 
-## ì‚¬ìš© ë°©ë²•
-1. íšŒë¡œ ì—°ê²°
-1. ì•„ë‘ì´ë…¸ pc ì—°ê²° í›„ ë¼ì´ë¸ŒëŸ¬ë¦¬ ì„¤ì¹˜([ë¼ì´ë¸ŒëŸ¬ë¦¬ì„¤ì¹˜ë°©ë²•](https://blog.naver.com/gongzipsa/222899480689))
-1. main_code.ino ì—…ë¡œë“œ
-1. ì•„ë¬´ë²„íŠ¼ ëˆ„ë¥¼ ì‹œ ì‹œìž‘
-1. X í‘œì‹œ ì´í›„ O í‘œê¸°ë˜ë©° Oê°€ í‘œê¸°ëœ ìˆœê°„ ë¨¼ì € ë²„íŠ¼ì„ ëˆŒë €ë‹¤ ë—€ ìª½ì„ í™”ì‚´í‘œë¡œ ê°€ë¥´í‚´
+## »ç¿ë ¹æ¹ý
+1. È¸·Î ¿¬°á
+1. ¾ÆµÎÀÌ³ë pc ¿¬°á ÈÄ ¶óÀÌºê·¯¸® ¼³Ä¡([¶óÀÌºê·¯¸®¼³Ä¡¹æ¹ý](https://blog.naver.com/gongzipsa/222899480689))
+1. main_code.ino ¾÷·Îµå
+1. ¾Æ¹«¹öÆ° ´©¸¦ ½Ã ½ÃÀÛ
+1. X Ç¥½Ã ÀÌÈÄ O Ç¥±âµÇ¸ç O°¡ Ç¥±âµÈ ¼ø°£ ¸ÕÀú ¹öÆ°À» ´­·¶´Ù ¶¾ ÂÊÀ» È­»ìÇ¥·Î °¡¸£Å´
 
-## ê²°ì„ ì´ë¯¸ì§€
+## °á¼±ÀÌ¹ÌÁö
 <img src="./img/Untitled Sketch_bb.png" width="50%" height="50%">
 
-## ì œí’ˆì‚¬ì§„
+## Á¦Ç°»çÁø
 <img src="./img/product_picture.jpg" width="50%" height="50%">
